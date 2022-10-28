@@ -80,7 +80,7 @@ document.getElementById("formular").onsubmit = function(event) {
         document.getElementById("cas").value += 5;
         skore += 1;
         document.getElementById("skore").innerHTML = skore;
-        if (skore >= 100) {
+        if (skore >= 110) {
             zastavHru();
             alert("Vyhrál jsi. Co jsi čekal? Gratuluji")
         }
