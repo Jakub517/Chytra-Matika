@@ -10,6 +10,7 @@
     margin: 4px 2px;
     transition-duration: 0.5s;
     cursor: pointer;
+
     }
 
     .button1 {background-color: #008CBA;}
@@ -23,9 +24,23 @@
 
     .button {
         transition-duration: 0.4s;
-      }
+    }
       
-      .button:hover {
-        background-color: #008CBA;
-        color: white;
-      }
+    .button:hover {
+      background-color: #008CBA;
+      color: white;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      border: solid grey;
+      padding: 5px;
+      background-color: grey;
+    }
+
+    p {
+      border: solid grey;
+      margin-right: 850px;
+    }
+
